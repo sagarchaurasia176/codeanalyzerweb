@@ -6,15 +6,6 @@ html, body {
 }
 
 .navbar-blur {
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(10px);
 }       
-
-.navbar-blur::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 1px;
-}
-
