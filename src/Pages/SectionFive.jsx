@@ -16,7 +16,7 @@ const SectionFive = () => {
       
       <div className=" gap-4 mt-2">
         <motion.a
-          href="https://github.com/"
+          href="https://github.com/sagarchaurasia176/Analyzer-chrome-extension.git"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.2 }}
