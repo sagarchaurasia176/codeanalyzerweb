@@ -36,7 +36,7 @@ const NavBar = () => {
           />
         </svg>
         <h1 className="ml-3 text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-          TC-Analyzer
+        Code-Analyzer
         </h1>
       </div>
     </div>
