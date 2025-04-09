@@ -38,7 +38,7 @@ const SectionFour = () => {
           variants={itemVariants}
         >
           Why Choose
-          <span className="text-blue-500"> TC-Analyzer</span>
+          <span className="text-blue-500"> Code-Analyzer</span>
         </motion.h1>
         
         <motion.p
