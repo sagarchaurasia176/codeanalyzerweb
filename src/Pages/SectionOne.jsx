@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ExampleComponent from "../codes/HeaderCode";
 import { motion } from "framer-motion";
+import VideoModal from "../Modal";
 
 const SectionOne = () => {
   const [position, setPosition] = useState(0);
@@ -35,13 +36,14 @@ const SectionOne = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
-          <button className="bg-blue-600 hover:bg-blue-700 transition-colors text-white px-6 py-3 rounded-lg font-semibold">
+          <a href="https://chromewebstore.google.com/detail/code-analyzer-instantly-a/cmjjfbkkdpabkialbmfdkcmblaabpnin" target="_blank">
+          <button className="bg-blue-600 hover:bg-blue-700 cursor-pointer transition-colors text-white px-6 py-3 rounded-lg font-semibold">
             Install Extension
           </button>
+          </a>
+        {/* Video Modal */}
+        <VideoModal/>
 
-          <button className="bg-transparent border-2 border-blue-500 hover:bg-blue-500/10 transition-colors text-white px-6 py-3 rounded-lg font-semibold">
-            Watch Demo
-          </button>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8">
@@ -97,7 +99,7 @@ const SectionOne = () => {
       </div>
 
       {/* Right Side (Example Component) */}
-      <div className="relative z-10 w-full md:w-1/2 bg-gray-800/50 p-8 rounded-xl">
+      <div className="relative w-full md:w-1/2 bg-gray-800/50 p-8 rounded-xl">
         <div className="absolute top-4 right-4 bg-green-500 text-white px-3 py-1 rounded-lg text-sm font-mono">
           Detected: O(n²)
         </div>

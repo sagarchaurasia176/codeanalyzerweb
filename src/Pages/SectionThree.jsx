@@ -128,14 +128,19 @@ const SectionThree = () => {
               whileHover={{ scale: 1.05 }}
               className="w-full sm:w-auto bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg transition-colors"
             >
+          <a href="https://chromewebstore.google.com/detail/code-analyzer-instantly-a/cmjjfbkkdpabkialbmfdkcmblaabpnin" target="_blank">
               Install Now
+              </a>
             </motion.button>
             <motion.button
               variants={itemVariants}
               whileHover={{ scale: 1.05 }}
               className="w-full sm:w-auto border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white font-bold py-3 px-6 rounded-lg transition-colors"
             >
-              Learn More
+              <a href="https://github.com/sagarchaurasia176/Code-Analyzer-chrome-extension.git" target="_blank">
+              GitHub
+              
+              </a>
             </motion.button>
           </div>
         </div>
