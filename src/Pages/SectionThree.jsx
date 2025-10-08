@@ -289,4 +289,4 @@ const SectionThree = () => {
   );
 };
 
-export default SectionThree;s
+export default SectionThree;

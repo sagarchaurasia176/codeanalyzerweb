@@ -1,4 +1,3 @@
-import React from 'react'
 import SectionOne from '../Pages/SectionOne'
 import SectionTwo from '../Pages/SectionTwo'
 import SectionThree from '../Pages/SectionThree'
